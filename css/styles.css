@@ -13,6 +13,9 @@ ul {
     padding: 0;
     margin: 0;
 }
+h1,h2,h3 {
+    margin: 0;
+}
 
 img {
     display: block;
@@ -79,6 +82,7 @@ img {
 .address {
     font-style: normal;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .address-list {
@@ -298,10 +302,13 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
-.header-logo {
+.footer-logo{
     display: inline-block;
     margin-bottom: 16px;
+}
+.header-logo {
+    display: inline-block;
+    padding: 24px 0;
 }
 
 .span {
@@ -313,6 +320,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin: 0;
 }
 
 .span-logo-white {
